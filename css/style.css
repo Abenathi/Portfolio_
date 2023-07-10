@@ -333,12 +333,23 @@ span{
     border: .2rem solid var(--main-color);
     border-radius: .6rem;
     margin-bottom: 2rem; 
+    overflow: hidden; 
 }
 
 .education-content .content::before{
     content: '';
-    position
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0; 
+    height: 100%;
+    background: red;
+    z-index: -1; 
+    transition: .5s; 
+}
 
+.education-content .content:hover::before{
+    width: 100%;
 }
 
 .education-box .education-content::before{
