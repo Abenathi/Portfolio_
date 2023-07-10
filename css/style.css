@@ -335,12 +335,41 @@ span{
     margin-bottom: 2rem; 
 }
 
+.education-content .content::before{
+    content: '';
+    position
+
+}
+
+.education-box .education-content::before{
+    content: '';
+    position: absolute; 
+    top: 0;
+    left: -1.1rem;
+    width: 2rem;
+    height: 2rem;
+    background: var(--main-color);
+    border-radius: 50%;
+
+}
+
 .education-content .content .year{
     font-size: 1.5rem;
     color: var(--main-color);
     padding-bottom: .5rem;
 }
 
+.education-content .content .year{
+    padding-right: .5rem;
+}
+
+.education-content .content h3{
+    font-size: 2rem;
+}
+
+.education-content .content p{
+    font-size: 
+}
 
 
 
