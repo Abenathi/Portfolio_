@@ -13,7 +13,7 @@
 
 :root {
    --bg-color: #081b29;
-   --second-gb-color: #ededed;
+   --second-bg-color: #112e42;
    --text-color: #ededed; 
    --main-color: #00abf0;
 }
@@ -343,7 +343,7 @@ span{
     left: 0;
     width: 0; 
     height: 100%;
-    background: red;
+    background: var(--second-bg-color);
     z-index: -1; 
     transition: .5s; 
 }
