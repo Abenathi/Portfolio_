@@ -90,7 +90,7 @@ section{
 }
 
 .home-content h1 span{
-    /*color: var(--) */
+    color: var(--text-color);
 }
 
 .home-content .text-animate{
@@ -606,7 +606,6 @@ span{
     transition: .5s; 
 
 }
-
 .footer-iconTop a::before{
     content: '';
     position: absolute; 
@@ -623,7 +622,7 @@ span{
     width: 100%;
 }
 
-.
+
 
 
 
